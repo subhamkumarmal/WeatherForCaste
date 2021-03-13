@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@1,600&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'lora',serif;
+    font-size: 20px;
+}
+
+.conWeather{
+
+    width: 55%;
+   
+
+}
+
+.rowContainer{
+    text-align: center;
+    align-items: center;
+    padding: 20px;
+    box-shadow: -1px -1px 2px 3px rgb(224, 215, 215);
+    
+}
+
+.searchBox{
+    text-align: center;
+    align-items: center;
+}
+.searchInput{
+    width: auto;
+    text-align: center;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    height: 30px;
+    background-color: black;
+    color: white;
+}
+.searchBar{
+    color: black;
+    padding-left: 10px;
+    
+    cursor: pointer;
+}
+.searchBar:hover{
+    color: green;
+}
+
+.temp_img{
+   width: auto;
+    height:200px;
+    
+}
+@media (max-width:600px){
+    .temp_img{
+        width: auto;
+        height: 150px;
+    }
+    .conWeather{
+        width: 80%;
+        height: 20%;
+    }
+}
