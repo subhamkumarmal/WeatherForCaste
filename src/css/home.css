@@ -58,10 +58,16 @@ font-family: 'Merriweather', serif;
   
 }
 
-@media (max-width:1000px){
+@media (max-width:600px){
   img{
     width: 150px;
     height: 200px;
+  }
+}
+
+@media(max-width:600px){
+  .setContainer{
+    width: 80%;
   }
 }
 
